@@ -1,0 +1,17 @@
+@import '../base/colors';
+
+/* Estilos titulos */
+
+h1,
+h2, 
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: $title-color;
+    text-align: center;
+    font-size: 30px;
+}
+
+.title-gastos {
+    text-align: left;
+    margin-top: 20px;
+}

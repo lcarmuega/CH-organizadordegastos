@@ -1,0 +1,21 @@
+@import '../base/colors';
+
+/* Estilos menú/navbar */
+
+.navbarStyles {
+    background-color: #fdfaff;
+    border-bottom: solid 1px;
+    border-color: $main-color;
+}
+
+.listText {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: $main-color;
+    transition: all 1ms;
+
+    &:hover {
+        color: #721a8f;
+        transform: scale(1.04);
+    }
+}

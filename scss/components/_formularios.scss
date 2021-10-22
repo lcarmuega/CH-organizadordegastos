@@ -1,0 +1,26 @@
+@import '../base/colors';
+
+/* Estilos formularios */
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    color: $main-color;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+input {
+    display: block;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: $button-bg-color;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-width: 0.1px;
+}
