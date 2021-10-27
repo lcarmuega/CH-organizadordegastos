@@ -53,6 +53,7 @@ html {
 .team-picture {
   width: 20%;
   transition: all 2s;
+  margin-top: 10px;
 }
 
 .team-picture:hover {
@@ -60,9 +61,15 @@ html {
 }
 
 .team-text {
-  font-style: italic;
   font-weight: 100;
   margin-top: 30px;
+  padding: 20px;
+}
+
+.team-member-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Estilos footer */
