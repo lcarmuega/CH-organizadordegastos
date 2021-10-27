@@ -43,7 +43,6 @@
 <body>
 
   <!-- Login modal -->
-
   <div class="modal" tabindex="-1" id="loginModal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -65,7 +64,6 @@
   </div>
 
   <!-- Menú/NavBar -->
-
   <header class="navbarStyles d-flex justify-content-center sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light" aria-label="navigation-one">
       <div class="container-fluid">
@@ -111,26 +109,27 @@
     <div id="container-gastos">
       <div id="inputs-gastos">
         <label for="field-ingreso">Indique su ingreso mensual: </label>
-        <input id="input-ingreso" type="number" name="field-ingreso" value="" placeholder="$">
+        <input id="ingreso" id="input-ingreso" type="number" name="field-ingreso" value="" placeholder="$">
         <h2 class="title-gastos">Gastos</h2>
         <ul>
           <li>
             <label for="field-alquiler">Alquiler:</label>
-            <input class="small-input" type="number" name="field-alquiler" value="" placeholder="$">
+            <input id="alquiler" class="small-input" type="number" name="field-alquiler" value="" placeholder="$">
           </li>
           <li>
             <label for="field-servicios">Servicios:</label>
-            <input class="small-input" type="number" name="field-servicios" value="" placeholder="$">
+            <input id="servicios" class="small-input" type="number" name="field-servicios" value="" placeholder="$">
           </li>
           <li>
             <label for="field-ahorros">Ahorros:</label>
-            <input class="small-input" type="number" name="field-ahorros" value="" placeholder="$">
+            <input id="ahorros" class="small-input" type="number" name="field-ahorros" value="" placeholder="$">
           </li>
           <li>
             <label for="field-otros">Otros:</label>
-            <input class="small-input" type="number" name="field-otros" value="" placeholder="$">
+            <input id="otros" class="small-input" type="number" name="field-otros" value="" placeholder="$">
           </li>
         </ul>
+        <input class="button" type="button" id="chart-button" value="Mostrar" onclick="handleSubmit()">
       </div>
       <div id="piechart"></div>
     </div>
@@ -174,9 +173,6 @@
   <!-- Footer -->
   <footer id="footer">
     <div class="footer-icons-div">
-      <a href="https://www.youtube.com/">
-        <img class="footer-icon" src="resources/youtube.svg" alt="Icono Youtube" width="40px">
-      </a>
       <a href="https://www.instagram.com/">
         <img class="footer-icon" src="resources/instagram.svg" alt="Icono Instagram" width="40px">
       </a>
@@ -186,12 +182,13 @@
       <a href="https://www.facebook.com/">
         <img class="footer-icon" src="resources/facebook.svg" alt="Icono Facebook" width="40px">
       </a>
+      <a href="terminos.html">
+        <img class="footer-icon" src="resources/terms-and-conditions.svg" alt="Icono Términos y condiciones"
+          width="40px">
+      </a>
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
-  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
     integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
   </script>

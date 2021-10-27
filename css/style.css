@@ -231,4 +231,15 @@ h5 {
   margin-top: 20px;
 }
 
+/* Estilos Términos y Condiciones */
+.bee-title {
+  padding: 10px;
+}
+
+.bee-text {
+  font-size: xx-small;
+  padding: 10px;
+  margin-top: -5px;
+}
+
 /*# sourceMappingURL=style.css.map */
